@@ -1,0 +1,68 @@
+/* #ed547c #F5F5F5 #b5d3f0 #90B6DB #486493 */
+
+* {
+    transition: all 0.5s ease;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+text {
+    font-weight: 500;
+}
+
+select {
+    cursor: pointer;
+    outline: none;
+    border: 0.5px solid #ed547c;
+    border-radius: 5px;
+}
+
+.reservar, textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+}
+
+textarea {
+    outline: none;
+    border: 0.5px solid #ed547c;
+    border-radius: 5px;
+}
+
+.margem-h1 {
+    margin: 15px;
+}
+
+.margemT {
+    margin-top: 50px;
+}
+
+.margemB {
+    margin-bottom: 15px;
+}
+
+.borda-home {
+    border: 0.5px solid #486493;
+}
+
+.borda-sair {
+    border: 0.5px solid #ed547c;
+}
+
+.botao {
+    color: #FFF;
+    background: #ed547c;
+}
+
+.botao:hover {
+    color: #F5F5F5;
+    box-shadow: 0px 0px 12px #ed547c;
+}
+
+.reserva-tam {
+    max-width: 300px;
+}

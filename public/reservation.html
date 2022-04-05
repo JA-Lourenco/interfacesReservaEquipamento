@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
+    <title>Reserva de Equipamentos</title>
+</head>
+<body>
+  <h1 class="text-center margem-h1">Reservar Equipamento</h1>
+  <hr>
+  <main class="reservar">
+      <form>
+        <div>
+          <div>
+            <select class="reservar">
+              <option disabled selected>Selecionar Equipamento</option>
+              <option>TV</option>
+              <option>DataShow</option>
+              <option>VCR</option>
+              <option>DVD</option>
+              <option>Tela de Projeção</option>
+              <option>Notebook</option>
+              <option>Microfone</option>
+              <option>Kit Multimídia</option>
+              <option>Caixa Amplificada</option>
+            </select>
+          </div>
+
+          <hr>
+
+          <div>
+            <p>Informe o número de identificação da sala de aula:</p>
+            <div class="form-floating">
+              <input type="text" class="form-control margemB" id="floatingInput" placeholder="Número da Sala de Aula">
+              <label for="floatingInput">Número da Sala de Aula</label>
+            </div>
+          </div>
+
+          <hr>
+
+          <div>
+            <p>
+              Será utilizado, a partir de qual data e até:
+            </p>
+
+            <div class="form-floating">
+              <input type="datetime-local" class="form-control margemB" id="floatingInput" placeholder="Horário de Utilização">
+              <label for="floatingPassword">Horário Inicial</label>
+            </div>
+
+            <div class="form-floating">
+              <input type="datetime-local" class="form-control margemB" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Horário Final</label>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div>
+          <p>Informações adicionais:</p>
+
+          <textarea class="margemB" rows="2" placeholder="Ex: Irei retirar o equipamento pessoalmente..."></textarea>
+        </div>
+
+        <hr>
+
+        <a href="reserved.html" class="w-100 btn btn-lg botao">Reservar</a>
+      </form>
+    </main>
+</body>
+</html>
