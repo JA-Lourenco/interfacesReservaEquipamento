@@ -6,7 +6,7 @@
 
 - Engenharia de Software II
 - Projeto de Interface com o Usuário
-- Progrmação Orientada a Objetos I
+- Programação Orientada a Objetos I
 - Economia e Mercado
 
 #### Demonstração
